@@ -20,8 +20,8 @@ const Header =() =>{
         <li><Link to="/Profile">Profile</Link></li>
       </ul>
       <ul className="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><span className="glyphicon glyphicon-user"></span> Sign Up</li>
+        <li><span className="glyphicon glyphicon-log-in"></span> Login</li>
       </ul>
     </div>
   </div>
