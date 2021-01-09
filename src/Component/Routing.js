@@ -7,6 +7,7 @@ import {BrowserRouter,Route,Link} from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
 import PostDetails from './PostDetails';
+import LifeCycle from './LifeCycle';
 
 const Routing = () =>{
   return(
@@ -17,7 +18,7 @@ const Routing = () =>{
   <Route exact path="/Post" component={Post}/>
   <Route exact path="/Profile" component={Profile}/>
   <Route exact path="/Post/:topic" component={PostDetails}/>
-
+  <Route exact path="/LifeCycle" component={LifeCycle}/>
 <Footer/>
   </BrowserRouter>
 
